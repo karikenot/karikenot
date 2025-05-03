@@ -12,8 +12,6 @@
     --col90: hsl(170, 80%, 90%);
     --col100: hsl(170, 80%, 100%);
     --accent: hsl(230, 80%, 80%);
-    --hff:'Radley', serif;
-    --pff: 'Sansation', sans-serif;
     --p: 1rem/1.5em var(--pff);
     --h1: 600 3rem/1.2em var(--hff);
     --h2: 600 2rem/1.2em var(--hff);
@@ -30,7 +28,7 @@ body {
     background-color: var(--col10);
     display: flex;
     justify-content: center;
-
+    font-family: 'Sen', sans-serif;
 }
 
 .heading {
@@ -39,4 +37,12 @@ body {
 
 h1 {
     color: var(--accent);
+}
+
+.btn {
+    padding: var(--spc1) var(--spc2);
+    background-color: var(--col100);
+    color: var(--col30);
+    text-decoration: none;
+    border-radius: var(--spc1);
 }
