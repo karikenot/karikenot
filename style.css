@@ -36,6 +36,7 @@ body {
     padding: var(--spc5);
     background-image: url(img/nanahiraop.jpg);
     background-size: 100%;
+    background-position-y: center;
 }
 
 .pfp {
