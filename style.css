@@ -92,7 +92,16 @@ p {
   
   .item1 {
     grid-row: 1 / span 2;
+    background-image: url(img/3F3F\ 3F_-Pochi_korone-_2e.png);
   }
+  
+.item2 {
+    background-image: url(img/images.jpeg);
+}
+
+.item3 {
+    background-image: url(img/GeoVXCrWMAA6K72.jpg);
+}
 
   @media(max-width: 650px) {
     .heading {
