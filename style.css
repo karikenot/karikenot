@@ -33,7 +33,7 @@ body {
 
 .heading {
     margin: var(--spc4) auto;
-    border: solid 2px;
+    border: var(--col100) solid 2px;
     border-radius: var(--spc2);
     padding: var(--spc3);
 }
@@ -52,10 +52,9 @@ p {
     color: var(--col30);
     text-decoration: none;
     border-radius: var(--spc1);
-    transition: background-color 300ms border 300ms;
+    transition: background-color 300ms;
 }
 
 .btn:hover {
     background-color: var(--col90);
-    border: var(--accent) solid 2px;
 }
