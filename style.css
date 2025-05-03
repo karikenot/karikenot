@@ -87,7 +87,7 @@ p {
 
   .grid-container > div:hover {
     background-color: #6d6d6d;
-    border: col100;
+    border: var(--col100);
   }
   
   .item1 {
