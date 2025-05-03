@@ -92,7 +92,7 @@ p {
   
   .item1 {
     grid-row: 1 / span 2;
-    background-image: url(img/images.jpeg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/images.jpeg);
     background-color: hsla(0, 0, 30, 0.5);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -100,7 +100,7 @@ p {
   }
   
 .item2 {
-    background-image: url(img/3F3F\ 3F_-Pochi_korone-_2e.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/3F3F\ 3F_-Pochi_korone-_2e.png);
     background-color: hsla(0, 0, 30, 0.5);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -108,7 +108,7 @@ p {
 }
 
 .item3 {
-    background-image: url(img/GeoVXCrWMAA6K72.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/GeoVXCrWMAA6K72.jpg);
     background-color: hsla(0, 0, 30, 0.5);
     background-repeat: no-repeat;
     background-size: 100%;
