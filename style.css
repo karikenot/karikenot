@@ -35,7 +35,15 @@ body {
     margin: var(--spc4) auto;
     border: var(--col100) solid 2px;
     border-radius: var(--spc2);
-    padding: var(--spc7) var(--spc4);
+    padding: var(--spc4) var(--spc7);
+    background-image: url(img/nanahira.jpg);
+}
+
+.pfp {
+    width: 50px;
+    height: 50px;
+    margin-left: var(--spc3);
+    border-radius: var(--spc2);
 }
 
 h1 {
