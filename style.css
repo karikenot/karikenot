@@ -30,10 +30,11 @@ body {
 }
 
 .heading {
+    width: 100%;
     margin: var(--spc4) var(--spc5);
     border: var(--col90) solid 2px;
     border-radius: var(--spc2);
-    padding: var(--spc5) var(--spc7);
+    padding: var(--spc5);
     background-image: url(img/nanahiraop.jpg);
 }
 
@@ -87,7 +88,7 @@ p {
 
   .grid-container > div:hover {
     background-color: #6d6d6d;
-    border: var(--col100);
+    border: solid var(--col100) 2px;
   }
   
   .item1 {
