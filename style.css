@@ -30,7 +30,7 @@ body {
 }
 
 .heading {
-    margin: var(--spc4) auto;
+    margin: var(--spc4) var(--spc5);
     border: var(--col100) solid 2px;
     border-radius: var(--spc2);
     padding: var(--spc5) var(--spc7);
@@ -69,6 +69,9 @@ p {
     .heading {
         padding: var(--spc4);
         border: none;
+        border-radius: 0;
+        margin: 0;
+        width: 100%;
     }
 }
 
@@ -76,15 +79,17 @@ p {
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
-    background-color: dodgerblue;
     padding: 10px;
+    margin: var(--spc4) var(--spc5);
+    border-radius: var(--spc4);
   }
   
   .grid-container > div {
-    background-color: #f1f1f1;
+    background-color: #303030;
     text-align: center;
     padding: 10px;
     font-size: 30px;
+    border-radius: var(--spc2);
   }
   
   .item1 {
