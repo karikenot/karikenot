@@ -88,32 +88,41 @@ p {
   .grid-container > div:hover {
     background-color: #3b3b3b;
     border: solid var(--col100) 2px;
+    color: hsl(231, 57%, 86%);
   }
   
   .item1 {
     grid-row: 1 / span 2;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/images.jpeg);
-    background-color: hsla(0, 0, 30, 0.5);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75) ), url(img/GLwwiKlaIAA7ADZ.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: center;
+  }
+
+  .item1:hover {
+    background-image: linear-gradient( rgba(80, 80, 80, 0.5), rgba(80, 80, 80, 0.75) ), url(img/GLwwiKlaIAA7ADZ.png);
   }
   
 .item2 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/3F3F\ 3F_-Pochi_korone-_2e.png);
-    background-color: hsla(0, 0, 30, 0.5);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75) ), url(img/3F3F\ 3F_-Pochi_korone-_2e.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: center;
 }
 
+.item2:hover {
+    background-image: linear-gradient( rgba(80, 80, 80, 0.5), rgba(80, 80, 80, 0.75) ), url(img/3F3F\ 3F_-Pochi_korone-_2e.png);
+  }
+
 .item3 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/GeoVXCrWMAA6K72.jpg);
-    background-color: hsla(0, 0, 30, 0.5);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75) ), url(img/GeoVXCrWMAA6K72.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: center;
 }
+
+.item3:hover {
+    background-image: linear-gradient( rgba(80, 80, 80, 0.5), rgba(80, 80, 80, 0.75) ), url(img/GeoVXCrWMAA6K72.jpg);
+  }
 
   @media(max-width: 650px) {
     .heading {
