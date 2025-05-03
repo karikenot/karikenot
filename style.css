@@ -35,6 +35,7 @@ body {
     border-radius: var(--spc2);
     padding: var(--spc5);
     background-image: url(img/nanahiraop.jpg);
+    background-size: 100%;
 }
 
 .pfp {
@@ -88,7 +89,6 @@ p {
   .grid-container > div:hover {
     background-color: #3b3b3b;
     border: solid var(--col100) 2px;
-    color: hsl(231, 57%, 86%);
   }
   
   .item1 {
@@ -96,6 +96,7 @@ p {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75) ), url(img/GLwwiKlaIAA7ADZ.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    transition: linear-gradient 500ms;
   }
 
   .item1:hover {
@@ -107,6 +108,7 @@ p {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: center;
+    transition: linear-gradient 500ms;
 }
 
 .item2:hover {
@@ -118,6 +120,7 @@ p {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: center;
+    transition: linear-gradient 500ms;
 }
 
 .item3:hover {
