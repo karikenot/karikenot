@@ -30,7 +30,6 @@ body {
 }
 
 .heading {
-    width: 100%;
     margin: var(--spc4) var(--spc5);
     border: var(--col90) solid 2px;
     border-radius: var(--spc2);
