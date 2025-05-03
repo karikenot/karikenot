@@ -40,10 +40,11 @@ body {
 }
 
 .pfp {
-    width: 2em;
-    height: 2em;
+    width: 1em;
+    height: 1em;
     margin-left: var(--spc4);
     border-radius: var(--spc4);
+    float: left;
 }
 
 h1 {
