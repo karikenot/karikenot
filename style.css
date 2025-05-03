@@ -31,7 +31,7 @@ body {
 
 .heading {
     margin: var(--spc4) var(--spc5);
-    border: var(--col100) solid 2px;
+    border: var(--col90) solid 2px;
     border-radius: var(--spc2);
     padding: var(--spc5) var(--spc7);
     background-image: url(img/nanahiraop.jpg);
@@ -65,16 +65,6 @@ p {
     background-color: var(--col90);
 }
 
-@media(max-width: 600px) {
-    .heading {
-        padding: var(--spc4);
-        border: none;
-        border-radius: 0;
-        margin: 0;
-        width: 100%;
-    }
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -90,8 +80,29 @@ p {
     padding: 10px;
     font-size: 30px;
     border-radius: var(--spc2);
+    border: solid var(--col90) 2px;
+    color: var(--accent);
+    transition: background-color 500ms;
+  }
+
+  .grid-container > div:hover {
+    background-color: #6d6d6d;
+    border: col100;
   }
   
   .item1 {
     grid-row: 1 / span 2;
   }
+
+  @media(max-width: 650px) {
+    .heading {
+        padding: var(--spc4);
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .grid-container {
+        margin: var(--spc1)
+    }
+}
