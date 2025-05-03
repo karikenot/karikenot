@@ -83,11 +83,10 @@ p {
     border-radius: var(--spc2);
     border: solid var(--col90) 2px;
     color: var(--accent);
-    transition: background-color 500ms;
+    cursor: pointer;
   }
 
   .grid-container > div:hover {
-    background-color: #3b3b3b;
     border: solid var(--col100) 2px;
   }
   
