@@ -35,7 +35,7 @@ body {
     margin: var(--spc4) auto;
     border: var(--col100) solid 2px;
     border-radius: var(--spc2);
-    padding: var(--spc7) sp;
+    padding: var(--spc7) var(--spc4);
 }
 
 h1 {
