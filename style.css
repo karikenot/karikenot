@@ -96,6 +96,7 @@ p {
     background-color: hsla(0, 0, 30, 0.5);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position-y: center;
   }
   
 .item2 {
@@ -103,6 +104,7 @@ p {
     background-color: hsla(0, 0, 30, 0.5);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position-y: center;
 }
 
 .item3 {
@@ -110,6 +112,7 @@ p {
     background-color: hsla(0, 0, 30, 0.5);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position-y: center;
 }
 
   @media(max-width: 650px) {
