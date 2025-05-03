@@ -32,17 +32,29 @@ body {
 }
 
 .heading {
-    margin: auto;
+    margin: var(--spc4) auto;
+    border: solid 2px;
+    border-radius: var(--spc2);
 }
 
 h1 {
     color: var(--accent);
 }
 
+p {
+    color: var(--col100);
+}
+
 .btn {
-    padding: var(--spc1) var(--spc2);
+    padding: var(--spc2);
     background-color: var(--col100);
     color: var(--col30);
     text-decoration: none;
     border-radius: var(--spc1);
+    transition: background-color 300ms, border 300 ms;
+}
+
+.btn:hover {
+    background-color: var(--col90);
+    border: var(--accent) solid 2px;
 }
