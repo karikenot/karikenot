@@ -69,16 +69,15 @@ p {
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
-    padding: 10px;
     margin: var(--spc4) var(--spc5);
     border-radius: var(--spc4);
   }
   
   .grid-container > div {
     background-color: #303030;
-    text-align: center;
+    text-align: left;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: var(--spc2);
     border: solid var(--col90) 2px;
     color: var(--accent);
@@ -86,7 +85,7 @@ p {
   }
 
   .grid-container > div:hover {
-    background-color: #6d6d6d;
+    background-color: #3b3b3b;
     border: solid var(--col100) 2px;
   }
   
