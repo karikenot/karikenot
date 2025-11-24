@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek | Karikenot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="/particle/particle.css">
+    <link rel="stylesheet" href="/assets/animation.css">
+</head>
+<body class="bg-zinc-900 font-mono text-white flex h-screen justify-center my-6">
+    <div id="particles-js"></div>
+    <a href="/index.html" class="absolute top-3 left-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ">
+            <path d="m12 19-7-7 7-7"></path>
+            <path d="M19 12H5"></path>
+        </svg>
+    </a>
+    <div class="w-screen m-7">
+        <div class="grid sm:grid-cols-2 gap-3">
+            <a href="/proyek/tetoinfo.html">
+                <div class="flex flex-col bg-zinc-900 opacity-75 border-zinc-800 border-2 rounded-xl sm:h-64 h-40 transition hover:border-zinc-600 text-zinc-500 hover:text-zinc-400 items-center justify-center hover:scale-105 ease-in-out duration-500">
+                    <p class="font-bold text-xl mb-2">Tetoinfo</p>
+                    <p class="mx-3">Sebuah website blog berisi artikel mengenai vocaloid</p>
+                    <p class="text-left">Selengkapnya...</p>
+                </div>
+            </a>
+            <a href="/proyek/timeline.html">
+                <div class="flex flex-col bg-zinc-900 opacity-75 border-zinc-800 border-2 rounded-xl sm:h-64 h-40 transition hover:border-zinc-600 text-zinc-500 hover:text-zinc-400 items-center justify-center hover:scale-105 ease-in-out duration-500">
+                    <p class="font-bold text-xl mb-2">Timeline</p>
+                    <p class="mx-3">Sebuah website berita dengan TailwindCSS</p>
+                    <p class="text-left">Selengkapnya...</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="/particle/particle.js"></script>
+    <script>
+        var typed = new Typed('#heading', {
+        strings: ['Seorang developer Pemula', 'Masih butuh pengalaman', 'Moga bisa jadi jago'],
+        typeSpeed: 100,
+        });
+    </script>
+    </body>
+</html>

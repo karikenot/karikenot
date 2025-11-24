@@ -1,88 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <title>Karikenot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="particle/particle.css">
+    <link rel="stylesheet" href="assets/animation.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>kariKenot</title>
 </head>
-<body class="bg-black font-[Sen] text-white">
-    <header class="flex w-full justify-center p-5 bg-linear-to-r from-cyan-500 to-blue-500">
-        <a href="/index.html">
-            <img src="/assets/img/logo-kari.svg" alt="kariKenot" class="w-20">
-        </a>
-    </header>
-    <div class="text-center py-20 px-10 bg-top-right bg-[url(assets/img/bg/714226.webp)]">
-        <h1 class="font-black text-6xl leading-20 brightness-100">
-            Hello, im <span class="p-2 text-blue-500">Kari</span>!
-        </h1>
+<body class="bg-zinc-900 font-mono text-white">
+    <div id="particles-js"></div>
+    
+    <div class="snap-y scroll-pl-6">
+        <div class="snap-start h-dvh w-full flex justify-center items-center flex-col">
+            <div class="text-center">
+                <h1 class="text-center my-auto text-4xl p-10 pb-2 font-bold">Halo gw Kari, <span id="heading"></span></h1>
+                <p class="text-gray-300">Fullstack Developer Pemula</p>
+            </div>
+            <div class="mt-5">
+                <a class="p-2 border rounded hover:bg-white hover:text-zinc-900 transition" href="/proyek/index.html">Proyek</a>
+                <a class="p-2 border rounded hover:bg-white hover:text-zinc-900 transition" href="/kontak.html">Kontak</a>
+            </div>
+        </div>
+        <a href="" class="absolute bottom-3 left-3 text-zinc-500 font-light underline">Lihat versi lama website ini</a>
     </div>
-    <div class="p-5 bg-linear-to-r from-cyan-500 to-blue-500">
-        <p class="">Im a front end developer.</p>
-        <h2 class="text-2xl font-bold">Tech Stack...</h2>
-    </div>
-    <div class="grid grid-cols-3 m-5 gap-5">
-        <div class="w-full flex justify-center">
-            <img src="/assets/img/techstack/html.svg" alt="HTML" class="w-15">
-        </div>
-        <div class="w-full flex justify-center">
-            <img src="/assets/img/techstack/css.svg" alt="CSS" class="w-15">
-        </div>
-        <div class="w-full flex justify-center">
-           <img src="/assets/img/techstack/javascript.svg" alt="Javascript" class="w-15"> 
-        </div>
-        <div class="w-full flex justify-center">
-            <img src="/assets/img/techstack/netlify.svg" alt="Netlify" class="w-15">
-        </div>
-        <div class="w-full flex justify-center">
-            <img src="/assets/img/techstack/tailwindcss.svg" alt="TailwindCSS" class="w-15 p-1 rounded cla">
-        </div>
-        <div class="w-full flex justify-center">
-            <img src="/assets/img/techstack/svelte.svg" alt="Svelte" class="w-15">
-        </div>
-    </div>
-    <div class="p-5 bg-linear-to-r from-cyan-500 to-blue-500">
-        <h2 class="text-2xl font-bold">My works</h2>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 m-5 gap-5">
-        <div class="p-2 rounded bg-zinc-950 hover:bg-zinc-900 transition 500ms ease-in">
-            <a href="https://timeline.krizknt.icu/">
-                <img src="assets/img/site/timeline.png" alt="" class="rounded">
-                <h3 class="font-bold text-2xl my-2">Timeline</h3>
-                <p class="text-gray-400">Sebuah website berita</p>
-            </a>
-        </div>
-        <div class="p-2 rounded bg-zinc-950 hover:bg-zinc-900 transition 500ms ease-in">
-            <a href="https://hvtime.krizknt.icu/">
-                <img src="assets/img/site/hvtime.png" alt="" class="rounded">
-                <h3 class="font-bold text-2xl my-2">HVTime</h3>
-                <p class="text-gray-400">Web app jam dunia Holyverse</p>
-            </a>
-        </div>
-        <div class="p-2 rounded bg-zinc-950 hover:bg-zinc-900 transition 500ms ease-in">
-            <img src="assets/img/site/acb.png" alt="" class="rounded">
-            <h3 class="font-bold text-2xl my-2">ACB</h3>
-            <p class="text-gray-400">Website Bank</p>
-        </div>
-        <div class="p-2 rounded bg-zinc-950 hover:bg-zinc-900 transition 500ms ease-in">
-            <img src="assets/img/site/tetoinfo.png" alt="" class="rounded">
-            <h3 class="font-bold text-2xl my-2">TetoInfo</h3>
-            <p class="text-gray-400">Website Blog Vocaloid</p>
-        </div>
-    </div>
-    <footer class="p-5 bg-linear-to-r from-cyan-500 to-blue-500">
-        I like femboy feets (This is a joke) <br>
-        const me = karikenot; <br>
-        Discord: me; <br>
-        Github: me; <br>
-        Instagram: me; <br>
-        Tiktok: me; <br>
-        X: me; <br>
-    </footer>
-    <script src="/tailwind.config.js"></script>
-</body>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="particle/particle.js"></script>
+    <script>
+        var typed = new Typed('#heading', {
+        strings: ['Seorang developer Pemula', 'Masih butuh pengalaman', 'Moga bisa jadi jago'],
+        typeSpeed: 100,
+        });
+    </script>
+    </body>
 </html>
