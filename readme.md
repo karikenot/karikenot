@@ -10,4 +10,4 @@ im a vocational high school student majoring in software development. im focusin
 # more stuff
 ![](https://github-stats-extended.vercel.app/api?username=karikenot&rank_icon=github&custom_title=stuff&show_icons=true&include_all_commits=true&theme=github_dark)<br/>
 ![](https://streak-stats.demolab.com/?user=karikenot&theme=github_dark&hide_border=false)<br/>
-![]([https://github-readme-stats.shion.dev/api/top-langs/?username=karikenot&theme=one_dark_pro&hide_border=false&include_all_commits=false&count_private=false&layout=compact](https://github-stats-extended.vercel.app/api/top-langs?username=karikenot&layout=compact&langs_count=6&theme=github_dark))
+![](https://github-stats-extended.vercel.app/api/top-langs?username=karikenot&layout=compact&langs_count=6&theme=github_dark)
